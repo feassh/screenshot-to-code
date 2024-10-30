@@ -69,7 +69,7 @@ function App() {
       isImageGenerationEnabled: true,
       editorTheme: EditorTheme.COBALT,
       generatedCodeConfig: Stack.HTML_TAILWIND,
-      codeGenerationModel: CodeGenerationModel.CLAUDE_3_5_SONNET_2024_06_20,
+      codeGenerationModel: CodeGenerationModel.DEEPSEEK, // CodeGenerationModel.CLAUDE_3_5_SONNET_2024_06_20
       // Only relevant for hosted version
       isTermOfServiceAccepted: false,
     },
@@ -80,7 +80,7 @@ function App() {
 
   // Code generation model from local storage or the default value
   const model =
-    settings.codeGenerationModel || CodeGenerationModel.GPT_4_VISION;
+    settings.codeGenerationModel || CodeGenerationModel.DEEPSEEK; // GPT_4_VISION
 
   const showBetterModelMessage =
     model !== CodeGenerationModel.GPT_4O_2024_05_13 &&
