@@ -18,5 +18,5 @@ export const CODE_GENERATION_MODEL_DESCRIPTIONS: {
   "gpt-4-turbo-2024-04-09": { name: "GPT-4 Turbo (deprecated)", inBeta: false },
   gpt_4_vision: { name: "GPT-4 Vision (deprecated)", inBeta: false },
   claude_3_sonnet: { name: "Claude 3 (deprecated)", inBeta: false },
-  "deepseek": { name: "deepseek", inBeta: false },
+  "deepseek-chat": { name: "deepseek", inBeta: false },
 };
